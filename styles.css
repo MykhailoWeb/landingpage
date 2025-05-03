@@ -1,0 +1,97 @@
+/*  Fonts and colors  */
+
+body {
+    font-family: "Roboto";
+}
+
+.header, .footer {
+    background-color: #1F2937;
+}
+
+.Describtion_header {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.Describtion_text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+ 
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.Header_logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+button, .SignUp_form {
+    background-color: #3882F6;
+}
+
+button {
+    color: #f9faf8;
+}
+
+.Information_header {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.Quote {
+    background-color: #E5E7EB;
+}
+
+.Quote_text {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+}
+
+.Quote_author {
+    font-weight: bold;
+    
+}
+
+.Information_header, .Quote_text, .Quote_author, .Cards {
+    color: #1F2937;
+}
+
+/* Boxes, margins etc. */
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Logo_Describtion {
+    width: 1000px;
+
+}
+
+.Logo_links {
+    display: flex;
+    justify-content: space-between;
+}
+
+}
+
+
+
+
+
+

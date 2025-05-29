@@ -6,6 +6,7 @@ body {
 
 .header, .footer {
     background-color: #1F2937;
+    color: #E5E7EB;
 }
 
 .Describtion_header {
@@ -23,6 +24,8 @@ a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+    padding: 0;
+    margin: 0;
 }
 
 .Header_logo {
@@ -32,6 +35,7 @@ a {
 
 button, .SignUp_form {
     background-color: #3882F6;
+    color: #E5E7EB;
 }
 
 button {
@@ -66,8 +70,111 @@ button {
 
 body {
     margin: 0;
+    padding: 0;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
 } 
 
+.footer {
+    padding: 40px;
+    text-align: center;
+}
+
+.SignUp_form {
+    margin: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+}
+
+.Logo_links {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        justify-content: space-between;
+}
+
+.Quote {
+    padding: 150px 250px 150px 250px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.Quote_author {
+    padding-right: 50px;
+}
+
+.Information {
+    text-align: center;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Cards {
+    margin: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 800px;
+
+}
+
+.card_text {
+    width: 150px;
+}
+
+.card_image {
+    width: 150px;
+    height: 150px;
+}
+
+.Content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Describtion {
+    display: flex;
+    width: 1000px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+
+.Describtion_text, .Describtion_header {
+    width: 400px;
+    padding: 10px;
+    
+}
+
+.Describtion_button {
+    margin: 10px;
+    
+}
+
+.Header_links {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.Header_logo {
+    margin: 10px;
+}
 
 

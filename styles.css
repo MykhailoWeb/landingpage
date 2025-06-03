@@ -31,9 +31,10 @@ a {
 .Header_logo {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: bold;
 }
 
-button, .SignUp_form {
+button, .SignUp_form_section {
     background-color: #3882F6;
     color: #E5E7EB;
 }
@@ -66,6 +67,22 @@ button {
     color: #1F2937;
 }
 
+.footer {
+    font-size: 18px;
+}
+
+.SignUp_form {
+    font-size: 24px;
+}
+
+.Cards {
+    font-size: 18px
+}
+
+button {
+    font-size: 24px;
+}
+
 /* Boxes, margins etc. */
 
 body {
@@ -77,104 +94,167 @@ body {
     justify-items: center;
 } 
 
-.footer {
-    padding: 40px;
-    text-align: center;
-}
 
-.SignUp_form {
-    margin: 60px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    width: 800px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;   
-}
+
+
 
 .Logo_links {
     
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 1000px;
+    padding: 20px;
+    width: 1370px;
+    align-items: center;
 }
 
 .header {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-        justify-content: space-between;
+    gap: 170px;
+    width: 100vw;
+    height: 700px;
+    padding-bottom: 170px;
 }
 
 .Quote {
-    padding: 150px 250px 150px 250px; 
+    height: 570px;
+    width: 100vw;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Quote_section {
     flex-wrap: wrap;
     justify-content: flex-end;
+    width: 1000px;
+}
+
+.Quote_text {
+    width: 1000px;
 }
 
 .Quote_author {
     padding-right: 50px;
+    text-align: end;
 }
 
 .Information {
     text-align: center;
-    margin: 50px;
+    height: 670px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.Information_header {
+    margin: 70px;
+}
 .Cards {
-    margin: 50px;
     display: flex;
-    justify-content: space-evenly;
-    width: 800px;
+    justify-content: space-between;
+    width: 1000px;
+    height: 300px;
+    margin-bottom: 170px;
 
 }
 
 .card_text {
-    width: 150px;
+    width: 200px;
 }
 
 .card_image {
-    width: 150px;
-    height: 150px;
+    display: block;
+    min-width: 200px;
+    min-height: 200px;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    
 }
 
-.Content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 .Describtion {
     display: flex;
-    width: 1000px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    width: 1370px;
+    height: 300px;
     justify-content: space-between;
 }
 
 .Describtion_text, .Describtion_header {
-    width: 400px;
-    padding: 10px;
+    width: 425px;
     
+    
+}
+
+
+.Header_links {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px;
+    padding: 0px;
+    width: 570px;
+    gap: 30px;  
+}
+
+.Header_image {
+    min-width: 700px;
+    min-height: 300px;
+    border: 3px solid #E5E7EB;
+}
+
+.SignUp_form_section {
+    width: 1350px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+    align-items: center;
+    border-radius: 10px;
+    
+
+}
+
+button {
+    width: 170px;
+    height: 50px;
+    margin: 10px 0px;
+    border: 3px solid #f9faf8;
+    border-radius: 10px;
+}
+
+.Header_text {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
 }
 
 .Describtion_button {
-    margin: 10px;
+    border: none;
+}
+
+.SignUp_form {
+    height: 470px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+    align-items: center; 
+}
+
+.footer {
+    min-height: 130px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
-.Header_links {
-    margin: 0px;
-    padding: 0px;
-    
+.SignUp_form_text_header, button {
+    font-size: 24px;
+    font-weight: bold;
 }
-
-.Header_logo {
-    margin: 10px;
-}
-
-
